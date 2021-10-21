@@ -1,0 +1,119 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.card-item {
+    display: flex;
+    margin-top: 40px;
+}
+.card .Experience {
+    margin-right: 30px;
+    position: relative;
+}
+.Experience .content1{
+    position: absolute;
+}
+.cer-content {
+    text-align: center;
+    margin-top: 25px;
+}
+.card .featuredImage {
+    height: 500px;
+    width: 400px;
+    border-radius: 45px;
+}
+.Experience .content1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.content1 h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0px 10px 0px;
+    color: azure;
+    font-family: Rift,Arial,Helvetica,sans-serif;
+}
+/* .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00ba8f;
+    color: #000;
+    overflow: hidden;
+    opacity: 0.2;
+    border-radius: 40px;
+} */
+.onScreenImage {
+    position: absolute;
+    top: -17px;
+    width: 25%;
+    height: 67px;
+    border-radius: 0px;
+    left: -28px;
+}
+.card-btn {
+    background-color: unset;
+    margin-top: 307px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-btn .btn-primary {
+    width: 180px;
+}
+.card-btn .btn-default {
+    width: 180px;
+    margin: 0 !important;
+}
+.card-btn .btn-default p {
+    font-size: 13px;
+}
+.card-btn .btn-primary p {
+    font-size: 8px;
+}
+.list button{
+    background: unset;
+    border-radius: 40px;
+    border: unset;
+    color: white;
+    width: 189px;
+    padding: 10px 20px;
+}
+.list{
+    text-align: center;
+}
+.focus:focus{
+    border: 3px solid white;
+
+}
+.Experience:nth-child(2) {
+    margin-right: 0;
+}
+.active {
+    background-color: unset !important;
+  border-radius: 40px;
+    border: 3px solid white !important;
+    color: white;
+   }
+   .show{
+    height: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    text-align: center;
+   }
+    
+   .hide{
+    display: none !important;
+   }

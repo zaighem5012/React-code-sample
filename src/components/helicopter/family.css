@@ -1,0 +1,65 @@
+figure {
+    position: relative;
+    margin: 0;
+    padding: 10px 5px;
+}
+figure:before {
+    content: "";
+    width: 70%;
+    height: calc(100% - 32px);
+    position: absolute;
+    left: -27px;
+    bottom: -13px;
+    background: #a5b0b4;
+    z-index: 0;
+}
+.family img{
+position: relative;
+clip-path: polygon(0 0,80% 0,100% 100%,0 100%);
+}
+.family {
+    background-color:hsla(0,0%,100%,.8);
+    height: 470px;
+    padding-top: 40px;
+}
+.family .img-sec {
+    width: 50%;
+    padding-top: 40px;
+}
+hr{
+    margin: 0;
+}
+.img-con{
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.img-con p {
+    color: #6f7e84;
+    font-size: 16px;
+    text-align: left;
+}
+.img-con h1 {
+    font-family: Rift,Arial,Helvetica,sans-serif;
+    color: #3D7CC9;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.fam-content{
+    display: flex;
+}
+.btn{
+    padding: 12px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3D7CC9;
+    border: transparent;
+    margin-top: 70px;
+}
+.btn p {
+    font-size: 10px;
+    margin: 0px 0px 5px 0px;
+    color: white;
+}
+.btn h2 {
+    margin: 0;
+}

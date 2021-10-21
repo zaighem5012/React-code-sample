@@ -1,0 +1,143 @@
+
+.door-com {
+    width: 100%;
+}
+.door-com h1 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.door-com .NYC-EXPERIENCE {
+    height: 300px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 3px solid #3d7cc9;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.NYC-EXPERIENCE:nth-child(2) {
+    padding-right: 0px;
+}
+
+.NYC-EXPERIENCE:hover {
+    box-shadow: inset 0 300px 200px -100px rgb(76 131 242 / 60%);
+}
+
+.top-image {
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    width: 15%;
+}
+
+.top-image img {
+    width: 100%;
+}
+
+.product-price {
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    background: #3d7cc9;
+    text-align: right;
+    padding: 8px 16px;
+    border-radius: 0 5px 0 5px;
+}
+
+span.product-price-header {
+    display: block;
+    font-weight: 700;
+    color: #fff;
+}
+
+span.product-price-slashed {
+    font-weight: 700;
+    text-decoration: line-through;
+    opacity: .5;
+    position: relative;
+    top: 0px;
+    left: -5px;
+    color: #fff;
+}
+
+span.product-price-actual {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffbe0b;
+    line-height: 1;
+}
+
+span.product-price-seat {
+    font-size: 13px;
+    font-size: .8125rem;
+    display: block;
+    font-weight: 700;
+    color: #fff;
+}
+
+.product-card-info {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    text-align: left;
+    padding: 24px;
+    width: calc(100% - 0rem);
+    box-sizing: border-box;
+    background: linear-gradient( 0deg, rgba(37, 35, 35, .5), transparent);
+}
+
+.info-name {
+    font-size: 23px;
+    margin: 0;
+    margin-bottom: 8px;
+    line-height: 1;
+    color: #fff;
+}
+
+.product-card-info .info-configuration {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.product-card-info button {
+    color: white;
+    border: #3d7cc9;
+    background-color: #3d7cc9;
+    width: 100%;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.product-details-item {
+    Box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.badge {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    bottom: 71px;
+    right: 34px;
+}
+.MuiSvgIcon-root {
+    fill: orange !important;
+    height: 16px !important;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: auto !important;
+}

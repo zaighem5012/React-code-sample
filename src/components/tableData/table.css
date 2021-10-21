@@ -1,0 +1,41 @@
+
+.data-content {
+    border-bottom: 1px solid #6b6666;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+
+    color:#748389;
+}
+.data-content div {
+    padding: 30px;
+    width: 25%;
+    text-align: center;
+}
+.data-content div:nth-child(2) {
+    border-left: 1px solid #6b6666;
+    border-right: 1px solid #6b6666;
+}
+.container {
+    width: 100%;
+    max-width: 1046px;
+    margin: 0 auto;
+}
+.data-table {
+    background-color: hsla(0,0%,100%,.8);
+    padding-bottom:40px ;
+    margin-top: 50px;
+}
+.data-content.last {
+    border-bottom: unset;
+}
+.data-table h1 {
+    padding-top: 40px;
+    margin: 0;
+    color: #3D7CC9;
+    text-align: center;
+}
+.data-table p {
+    color: #A1A9AD;
+    margin: 40px 0px;
+}

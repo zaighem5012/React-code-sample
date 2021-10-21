@@ -1,0 +1,100 @@
+.about-us .header {
+    z-index: 2;
+}
+.ban-head{
+    position: relative;
+}
+.video-banner {
+    padding: 0;
+    height: 100%;
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+    outline: none;
+}
+.ban-video {
+    width: 100%;
+    position: relative;
+}
+.ban-con{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(37,35,35,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ban-con .photo{
+    margin: 0 auto;
+    line-height: 1.2;
+    color: white;
+    font-size: 40px;
+}
+.ban-con .professional{
+    margin: 0 auto;
+    line-height: 1.5    ;
+    color: white;
+    font-size: 20px;
+}
+.ban-con .MuiSvgIcon-root{
+    fill: white  !important;
+    margin-top: 20px;
+    height: 75px !important;
+}
+.content{
+    background-color: #EDF2F4;
+}
+.content .intro{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    padding-top: 35px;
+ 
+}
+.intro-h {
+    color: #5e5a5a;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 auto;
+    line-height: 2;
+}
+.intro-p {
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #6b6666;
+}
+.city-selection {
+    background-color: #1C242D;
+    padding: 60px 10px;
+    text-align: center;
+}
+.city-selection h3 {
+    color: white;
+    margin: 0 auto;
+    line-height: 2;
+}
+h1.ready {
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 13px;
+    font-size: 40px;
+}
+p.choose {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: white;
+}
+.about-img{
+    height: 697px;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}

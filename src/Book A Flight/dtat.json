@@ -1,0 +1,34 @@
+{
+    "doors-off": {
+    "experience": {
+        "product-price-header": "Online Price",
+       "product-price-slashed": "$298",
+       "product-price-actual": "$119",
+       "product-price-seat": "per seat",
+      "info-name": "NYC EXPERIENCE",
+      "info-configuration": "doors-off flight",
+      "Details1": "30 - 33 Minute Flight",
+      "Details2": "Departs from Kearny, NJ"
+    },
+    "nyc": {
+        "product-price-header": "Online Price",
+        "product-price-slashed": "$247",
+        "product-price-actual": "$99",
+        "product-price-seat": "per seat",
+       "info-name": "NYC INTRO",
+       "info-configuration": "Doors-On Flight",
+       "Details1": "15 - 17 Minute Flight",
+       "Details2": "Departs from Kearny, NJ"
+    },
+    "classic": {
+        "product-price-header": "Online Price",
+        "product-price-slashed": "$549",
+        "product-price-actual": "$220",
+        "product-price-seat": "per seat",
+       "info-name": "NYC CLASSIC",
+       "info-configuration": "Doors-Off Flight",
+       "Details1": "30 - 33 Minute Flight",
+       "Details2": "Departs from Kearny, NJ"
+    }
+    }
+   }
